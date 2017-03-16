@@ -1,0 +1,6 @@
+framework module Pods_ReflexTests {
+  umbrella header "Pods-ReflexTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
