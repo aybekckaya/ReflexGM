@@ -10,9 +10,9 @@ import Foundation
 import  UIKit
 
 extension Int {
-    static let undefined = Int.min
+     @nonobjc static let undefined = Int.min
 }
 
 extension CGFloat {
-    static let undefined : CGFloat = -99999
+     @nonobjc static let undefined : CGFloat = -99999
 }

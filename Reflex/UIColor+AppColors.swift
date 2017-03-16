@@ -11,13 +11,13 @@ import  UIKit
 
 extension UIColor {
     
-    static let backgroundColor = RGBColor(red: 66, green: 66, blue: 66)
+     @nonobjc static let backgroundColor = RGBColor(red: 66, green: 66, blue: 66)
     
-    static let appColorNeutral = RGBColor(red: 230, green: 230, blue: 230)
-    static let appColorDanger = RGBColor(red: 255, green: 71, blue: 52)
-    static let appColorShine = RGBColor(red: 155, green: 232, blue: 52)
-    static let appColorOrange = RGBColor(red: 255, green: 135, blue: 6)
-    static let appColorYellow = RGBColor(red: 255, green: 215, blue: 71)
+     @nonobjc static let appColorNeutral = RGBColor(red: 230, green: 230, blue: 230)
+     @nonobjc static let appColorDanger = RGBColor(red: 255, green: 71, blue: 52)
+     @nonobjc static let appColorShine = RGBColor(red: 155, green: 232, blue: 52)
+     @nonobjc static let appColorOrange = RGBColor(red: 255, green: 135, blue: 6)
+     @nonobjc static let appColorYellow = RGBColor(red: 255, green: 215, blue: 71)
 
     
     class func RGBColor (red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat = 1.0) -> UIColor {

@@ -38,27 +38,7 @@ class GameController: NSObject {
         
         
     }
-    
-    private func boxMargin()->CGFloat {
-        if typeGame == .animatingBoxes || typeGame == .staticBoxesRandomLocation {
-            return CGFloat.undefined
-        }
-        
-        let screenWidth = UIScreen.main.bounds.size.width
-        let gameAreaWidth = screenWidth - marginBoxesArea*2
-        
-        var margin:CGFloat = 10
-        if typeGame == .staticBoxesWith9Tiles {
-            
-        }
-        else if typeGame == .staticBoxesWith16Tiles {
-            
-        }
-        
-        return margin
-    }
-    
-    
+
     
     
     private func initGameType() {
